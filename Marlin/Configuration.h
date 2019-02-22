@@ -380,9 +380,14 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
   // i3 Mega
-  #define  DEFAULT_Kp 15.94
-  #define  DEFAULT_Ki 1.17
-  #define  DEFAULT_Kd 54.19
+  //#define  DEFAULT_Kp 15.94
+  //#define  DEFAULT_Ki 1.17
+  //#define  DEFAULT_Kd 54.19
+
+  //Auto tune defaults m106 S191 v1
+  #define DEFAULT_Kp 15.78
+  #define DEFAULT_Ki 1.14
+  #define DEFAULT_Kd 54.60
 
   // Ultimaker
   //#define  DEFAULT_Kp 22.2
@@ -437,9 +442,14 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //Anycubic i3 Mega 160W Ultrabase
-  #define DEFAULT_bedKp 251.78
-  #define DEFAULT_bedKi 49.57
-  #define DEFAULT_bedKd 319.73
+  //#define DEFAULT_bedKp 251.78
+  //#define DEFAULT_bedKi 49.57
+  //#define DEFAULT_bedKd 319.73
+  
+  // Auto tune defaults v1
+  #define DEFAULT_bedKp 190.50
+  #define DEFAULT_bedKi 36.34
+  #define DEFAULT_bedKd 249.67
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
